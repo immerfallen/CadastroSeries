@@ -1,7 +1,7 @@
-namespace projeto.Classes
+namespace projeto
 {
-    public class EntidadeBase
+    public abstract class EntidadeBase
     {
-        
+        public int Id {get;protected set;}
     }
 }

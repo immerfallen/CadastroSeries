@@ -6,7 +6,7 @@ namespace projeto
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Series serie = new Series();
         }
     }
 }
