@@ -1,29 +1,32 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Engenharia\\Desktop\\projeto\\projeto.csproj": {}
+    "C:\\Users\\maro_\\Desktop\\projeto\\CadastroSeries\\projeto.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Engenharia\\Desktop\\projeto\\projeto.csproj": {
+    "C:\\Users\\maro_\\Desktop\\projeto\\CadastroSeries\\projeto.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Engenharia\\Desktop\\projeto\\projeto.csproj",
+        "projectUniqueName": "C:\\Users\\maro_\\Desktop\\projeto\\CadastroSeries\\projeto.csproj",
         "projectName": "projeto",
-        "projectPath": "C:\\Users\\Engenharia\\Desktop\\projeto\\projeto.csproj",
-        "packagesPath": "C:\\Users\\Engenharia\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Engenharia\\Desktop\\projeto\\obj\\",
+        "projectPath": "C:\\Users\\maro_\\Desktop\\projeto\\CadastroSeries\\projeto.csproj",
+        "packagesPath": "C:\\Users\\maro_\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\maro_\\Desktop\\projeto\\CadastroSeries\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Engenharia\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\maro_\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
             "projectReferences": {}
           }
         },
@@ -35,6 +38,7 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "imports": [
             "net461",
             "net462",
@@ -50,7 +54,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.405\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
         }
       }
     }

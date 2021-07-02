@@ -1,0 +1,13 @@
+C:\Users\maro_\Desktop\projeto\CadastroSeries\bin\Debug\netcoreapp3.1\projeto.exe
+C:\Users\maro_\Desktop\projeto\CadastroSeries\bin\Debug\netcoreapp3.1\projeto.deps.json
+C:\Users\maro_\Desktop\projeto\CadastroSeries\bin\Debug\netcoreapp3.1\projeto.runtimeconfig.json
+C:\Users\maro_\Desktop\projeto\CadastroSeries\bin\Debug\netcoreapp3.1\projeto.runtimeconfig.dev.json
+C:\Users\maro_\Desktop\projeto\CadastroSeries\bin\Debug\netcoreapp3.1\projeto.dll
+C:\Users\maro_\Desktop\projeto\CadastroSeries\bin\Debug\netcoreapp3.1\projeto.pdb
+C:\Users\maro_\Desktop\projeto\CadastroSeries\obj\Debug\netcoreapp3.1\projeto.csprojAssemblyReference.cache
+C:\Users\maro_\Desktop\projeto\CadastroSeries\obj\Debug\netcoreapp3.1\projeto.AssemblyInfoInputs.cache
+C:\Users\maro_\Desktop\projeto\CadastroSeries\obj\Debug\netcoreapp3.1\projeto.AssemblyInfo.cs
+C:\Users\maro_\Desktop\projeto\CadastroSeries\obj\Debug\netcoreapp3.1\projeto.csproj.CoreCompileInputs.cache
+C:\Users\maro_\Desktop\projeto\CadastroSeries\obj\Debug\netcoreapp3.1\projeto.dll
+C:\Users\maro_\Desktop\projeto\CadastroSeries\obj\Debug\netcoreapp3.1\projeto.pdb
+C:\Users\maro_\Desktop\projeto\CadastroSeries\obj\Debug\netcoreapp3.1\projeto.genruntimeconfig.cache

@@ -15,7 +15,7 @@ namespace projeto
                    ListarSeries();
                     break;
                    case "2":
-                   //InserirSeries();
+                   InserirSeries();
                     break;
                    case "3":
                    // AtualizarSeries();
@@ -51,8 +51,35 @@ namespace projeto
                   return;
               }
               foreach(var serie in lista){
-                  Console.WriteLine("#ID {0}: - {1}, ", serie.retornaId(),serie.retornaTitulo());
+                  Console.WriteLine("#ID {0}: - {1} ", serie.RetornaId(),serie.RetornaTitulo());
               }
+        }
+
+        private static void InserirSeries(){
+            Console.WriteLine("Inserir nova série");
+
+            foreach(int i in Enum.GetValues(typeof(Genero))){
+                Console.WriteLine("{0} - {1}", i, Enum.GetName(typeof(Genero), i));
+            }
+            Console.WriteLine("Digite o genero das opções acima: ");
+            int entradaGenero = int.Parse(Console.ReadLine());
+
+            Console.WriteLine("Digite o titulo da serie: ");
+            string entradaTitulo = Console.ReadLine();
+
+            Console.WriteLine("Digite o ano da serie: ");
+            int entradaAno = int.Parse(Console.ReadLine());
+
+            Console.WriteLine("Digite o descricao da serie: ");
+            string entradaDescricao = Console.ReadLine();
+
+            Series novaSerie = new Series(id: repositorio.ProximoId(),
+                                          genero: (Genero)entradaGenero,
+                                          titulo: entradaTitulo,
+                                          ano: entradaAno,
+                                          descricao: entradaDescricao);
+
+            repositorio.Insere(novaSerie);
         }
 
        

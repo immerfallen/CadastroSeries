@@ -31,11 +31,11 @@ namespace projeto
             return retorno;
         }
 
-        public string retornaTitulo(){
+        public string RetornaTitulo(){
             return this.Titulo;
         }
 
-        public int retornaId(){
+        public int RetornaId(){
             return this.Id;
         }
 

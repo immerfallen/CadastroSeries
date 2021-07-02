@@ -27,12 +27,12 @@ namespace projeto
             return listaSeries;
         }
 
-        public int proximoId()
+        public int ProximoId()
         {
             return listaSeries.Count;
         }
 
-        public Series retornaPorId(int id)
+        public Series RetornaPorId(int id)
         {
             return listaSeries[id];
         }
