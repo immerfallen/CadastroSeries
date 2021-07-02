@@ -32,7 +32,7 @@ namespace projeto
             return this.Titulo;
         }
 
-        public string retornaId(){
+        public int retornaId(){
             return this.Id;
         }
     }

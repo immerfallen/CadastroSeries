@@ -6,6 +6,8 @@ namespace projeto
     {
         static void Main(string[] args)
         {
+            
+
             Series serie = new Series();
         }
     }
