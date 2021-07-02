@@ -1,6 +1,6 @@
 using System.Collections.Generic;
 
-namespace projeto
+namespace projeto.Interfaces
 {
     public interface IRepositorio<T>
     {
