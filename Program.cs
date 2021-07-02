@@ -18,7 +18,7 @@ namespace projeto
                    InserirSeries();
                     break;
                    case "3":
-                   // AtualizarSeries();
+                   AtualizarSeries();
                     break;
                    case "4":
                    // ExcluirSeries();
@@ -80,6 +80,34 @@ namespace projeto
                                           descricao: entradaDescricao);
 
             repositorio.Insere(novaSerie);
+        }
+
+        private static void AtualizarSeries(){
+            Console.WriteLine("Digite o id da serie");
+            int indiceSerie = int.Parse(Console.ReadLine());
+
+            foreach(int i in Enum.GetValues(typeof(Genero))){
+                Console.WriteLine("{0} - {1}", i, Enum.GetName(typeof(Genero), i));
+            }
+            Console.WriteLine("Digite o genero das opções acima: ");
+            int entradaGenero = int.Parse(Console.ReadLine());
+
+            Console.WriteLine("Digite o titulo da serie: ");
+            string entradaTitulo = Console.ReadLine();
+
+            Console.WriteLine("Digite o ano da serie: ");
+            int entradaAno = int.Parse(Console.ReadLine());
+
+            Console.WriteLine("Digite o descricao da serie: ");
+            string entradaDescricao = Console.ReadLine();
+
+            Series atualizaSerie = new Series(id: indiceSerie,
+                                          genero: (Genero)entradaGenero,
+                                          titulo: entradaTitulo,
+                                          ano: entradaAno,
+                                          descricao: entradaDescricao);
+
+            repositorio.Atualiza(indiceSerie, atualizaSerie);
         }
 
        
